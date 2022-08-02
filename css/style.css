@@ -10,13 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
-
-
-  body p {
+body p {
     text-align: center;
 }
-
-
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -287,7 +283,7 @@ section .title::after{
 .services, .teams{
     color:#fff;
     background: #111;
-    margin: 90px 0;
+    margin: 110px 0;
 }
 .services .title::before,
 .teams .title::before{
@@ -304,6 +300,8 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
+    height: 21rem;
+    max-height: 30rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -328,7 +326,7 @@ section .title::after{
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 6px 0 4px 0;
 }
 
 /* skills section styling */
@@ -417,6 +415,8 @@ section .title::after{
     background: #222;
     border-radius: 6px;
     padding: 20px;
+    height: 18rem;
+    max-height: 23rem;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -489,6 +489,7 @@ section .title::after{
 }
 .contact .contact-content .left p{
     text-align: justify;
+    margin:0;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -820,6 +821,7 @@ footer .btn-linkedin > span {
 }
 
 @media (max-width: 690px) {
+
     .max-width{
         padding: 0 23px;
     }
@@ -846,9 +848,7 @@ footer .btn-linkedin > span {
 }
 
 @media (max-width: 500px) {
-     footer h1 {
-    font-size:1em;
-    }
+
     .home .home-content .text-2{
         font-size: 50px;
     }
@@ -945,7 +945,7 @@ footer .btn-linkedin > span {
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-   box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.753),
+  box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.753),
                 0px 5px 5px rgba(0, 0, 0, 0.61);
 }
 
@@ -1037,8 +1037,6 @@ footer .btn-linkedin > span {
 
 .card .box:hover .wg-box-content-overlay{
   opacity: 1;
-  
-  
 }
 
 .card .box .wg-box-content-details {
@@ -1079,6 +1077,16 @@ footer .btn-linkedin > span {
 .box .fadeIn-bottom{
   top: 80%;
 }
+
+
+
+
+
+
+
+
+/**trst ***/
+
 
 
 /* blog section styling */
@@ -1126,6 +1134,6 @@ footer .btn-linkedin > span {
     background: none;
 }
 
-
-  
-
+  body p {
+    text-align: center;
+}
